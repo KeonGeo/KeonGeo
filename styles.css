@@ -1,0 +1,154 @@
+/* Header Section */
+.block1{
+  background-color: #FFFFC0;
+}
+
+.dove-img {
+  width: 40% ;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.headerp{
+  font-size: 3.3rem;
+  text-align: center;
+  padding-left: 250px;
+  position: relative;
+  top: 85px;
+}
+
+.headerBtn{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  padding: .5rem 3.4rem;
+  left: 75px;
+}
+
+h1{
+  font-size: 3rem;
+  text-align: center;
+  padding: 15px;
+}
+
+h2{
+  font-size: 3.5rem;
+  position: relative;
+  right: 150px;
+}
+
+.squad-img{
+  width: 103%;
+  position:relative;
+  right: 10px;
+  bottom: 9px;
+}
+
+.media-btn{
+  position: relative;
+  padding: .5rem 6rem;
+}
+
+.squad-div{
+  text-align: center;
+}
+
+.product-grid{
+width: 250px;
+height: 250px;
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+margin: 10px;
+}
+.tee-hover{
+  background-image: url('../images/tees.JPG');
+}
+
+.tee-hover :hover{
+  color: yellow;
+}
+
+h3{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  color: #EAFBEA;
+  font-size: 2rem;
+}
+
+@media (min-width:1024px) and (max-width:1024px){
+  #Header{
+    text-align: center;
+  }
+
+  .dove-img{
+    position: relative;
+    top: 70px;
+    width: 45%;
+  }
+
+  .headerBtn{
+    left: 0;
+  }
+}
+
+@media(min-width:320px) and (max-width:1023px){
+  #Header{
+    text-align: center;
+  }
+
+  .headerp{
+    top: 150px;
+    font-size: 4rem;
+  }
+
+  .headerBtn{
+    top: 150px;
+    left: 0;
+  }
+
+  h2{
+    right: 0;
+  }
+}
+
+.shop-grid {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 270px;
+height: 270px;
+transform: rotate(90deg);
+border-radius: 15px;
+}
+
+.hover-div{
+  width: 270px;
+  height:270px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  border-radius: 15px;
+  transition: .5s ease;
+}
+
+.hover-text{
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 105px;
+}
+
+ .hover-div:hover {
+opacity: .6;
+}
+
+.pageLink {
+  text-align:center;
+}
